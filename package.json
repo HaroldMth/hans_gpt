@@ -1,0 +1,26 @@
+{
+  "name": "hans-gpt-telegram-bot",
+  "version": "1.0.0",
+  "description": "Hans GPT Telegram Bot - A smart assistant created by Hans Tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "Hans GPT",
+    "Hans Tech",
+    "smart assistant"
+  ],
+  "author": "Hans Tech",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
